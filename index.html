@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>For Your Best Self — Staff Schedule</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&family=Allura&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#111112;          /* FYBS charcoal */
+  --ink-soft:#1C1C1E;
+  --line:rgba(255,255,255,.14);
+  --line-soft:rgba(255,255,255,.08);
+  --gold:#BE9046;         /* FYBS gold */
+  --gold-deep:#B4863D;
+  --gold-soft:rgba(190,144,70,.14);
+  --paper:#FFFFFF;
+  --mist:rgba(255,255,255,.72);
+  --mist2:rgba(255,255,255,.5);
+  --sans:"League Spartan","Metropolis",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --script:"Allura",cursive;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;min-height:100%}
+body{
+  background:var(--ink);
+  color:var(--paper);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  padding:32px 24px;
+  text-align:center;
+  background-image:
+    radial-gradient(ellipse 70% 55% at 50% 0%, rgba(190,144,70,.13), transparent 70%),
+    radial-gradient(ellipse 55% 40% at 50% 105%, rgba(190,144,70,.07), transparent 70%);
+}
+
+/* ---- logo lockup, echoing the site header ---- */
+.lockup{margin-bottom:44px}
+.lockup .dept{
+  font-size:12px;
+  font-weight:500;
+  letter-spacing:.34em;
+  text-transform:uppercase;
+  color:var(--mist);
+  margin-bottom:2px;
+}
+.lockup .name{
+  font-family:var(--script);
+  font-size:52px;
+  line-height:1.1;
+  color:var(--paper);
+  font-weight:400;
+}
+.lockup .rule{
+  width:54px;height:1px;background:var(--gold);
+  margin:16px auto 12px;
+}
+.lockup .unit{
+  font-size:11px;
+  font-weight:500;
+  letter-spacing:.42em;
+  text-transform:uppercase;
+  color:var(--gold);
+}
+
+h1{
+  margin:0 0 18px;
+  font-size:30px;
+  font-weight:300;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  line-height:1.3;
+}
+h1 b{font-weight:500}
+p.lede{
+  margin:0 auto 30px;
+  max-width:36em;
+  color:var(--mist);
+  font-weight:300;
+  font-size:16.5px;
+}
+p.lede .script{
+  font-family:var(--script);
+  font-size:1.55em;
+  color:var(--gold);
+  letter-spacing:0;
+}
+
+.status{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  border:1px solid var(--gold);
+  background:var(--gold-soft);
+  padding:12px 22px;
+  font-size:12px;
+  font-weight:500;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:#E3C68F;
+  margin-bottom:38px;
+}
+.dot{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--gold);
+  animation:pulse 2.2s ease-in-out infinite;
+}
+@keyframes pulse{
+  0%,100%{opacity:1;transform:scale(1)}
+  50%{opacity:.4;transform:scale(.8)}
+}
+
+.note{
+  border-top:1px solid var(--line-soft);
+  padding-top:22px;
+  max-width:34em;
+  font-size:13.5px;
+  font-weight:300;
+  color:var(--mist2);
+}
+.note b{color:var(--mist);font-weight:500}
+.note a{color:var(--gold);text-decoration:none}
+.note a:hover{color:#D4AC66;text-decoration:underline}
+
+.foot{
+  margin-top:46px;
+  font-size:10px;
+  font-weight:500;
+  letter-spacing:.3em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.32);
+}
+
+@media (max-width:520px){
+  .lockup .name{font-size:42px}
+  h1{font-size:22px;letter-spacing:.1em}
+  .lockup{margin-bottom:34px}
+  .status{padding:11px 16px;letter-spacing:.16em}
+}
+@media (prefers-reduced-motion:reduce){
+  .dot{animation:none}
+}
+</style>
+</head>
+<body>
+
+<div class="lockup">
+  <div class="dept">Dermatology &plus; Plastic Surgery</div>
+  <div class="name">For Your Best Self</div>
+  <div class="rule" aria-hidden="true"></div>
+  <div class="unit">Staff Schedule</div>
+</div>
+
+<h1>The team schedule<br><b>is moving in here</b></h1>
+
+<p class="lede">This address will be the home of our internal staff scheduling tool.
+It isn't live quite yet — once it is, you'll sign in right on this page with your
+work email or staff code, <span class="script">for your best shift.</span></p>
+
+<div class="status"><span class="dot" aria-hidden="true"></span> Setup in progress &mdash; check back soon</div>
+
+<div class="note">
+  <b>On the team?</b> Your manager will let you know when sign-in opens.<br>
+  Looking for the practice? Visit <a href="https://www.foryourbestself.com">foryourbestself.com</a>
+</div>
+
+<div class="foot">schedule&thinsp;.&thinsp;foryourbestself&thinsp;.&thinsp;com</div>
+
+</body>
+</html>
